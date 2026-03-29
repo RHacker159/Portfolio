@@ -336,7 +336,7 @@ input{
 	margin: auto;
 }
 .blog-section .title{
-	width: 60%;
+	width: 100%;
 	text-align: center;
 	margin: auto;
 }
@@ -428,7 +428,7 @@ input{
 	margin: auto;
 }
 .section_work .title_work{
-	width: 60%;
+	width: 100%;
 	text-align: center;
 	margin: auto;
 }
