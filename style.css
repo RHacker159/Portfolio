@@ -531,9 +531,7 @@ input{
 }
 @media screen and (max-width: 768px){
 
-	.home{
-		padding: 40rem 0%;
-	}
+
 	
 	.content{
 		flex-direction: column;
