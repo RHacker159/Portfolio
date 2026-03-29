@@ -97,7 +97,7 @@ z-index:-3;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 1rem 10%;
+	padding: 1rem 0%;
 	margin-bottom: 2rem;
 }
 .lgo span{
@@ -160,7 +160,7 @@ input{
 
 .home{
 	padding: 9rem 0%;
-	margin: 5rem;
+	margin: 4rem;
 }
 .home{
 	min-heigh: 110vh;
@@ -418,64 +418,6 @@ input{
 	color: black;
 }
 
-/*Hakcing Style*/
-
-.cont_hack{
-	width: 100%;
-}
-.section_hack{
-	width: 85%;
-	margin: auto;
-}
-.section_hack .title_hack{
-	width: 60%;
-	text-align: center;
-	margin: auto;
-}
-.section_hack .title_hack h1{
-	font-size: 40px;
-	color: white;
-	margin-bottom: 25px;
-	position: relative;
-	margin: 2rem;
-}
-.section_hack .title_hack p{
-	color: white;
-	font-size: 28px;
-	line-height: 1.5;
-}
-.conhack{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin: auto;
-}
-.conhack .card_hack{
-	flex: 1;
-	margin: 10px 10px;
-	overflow: hidden;
-}
-.conhack .card_hack img{
-	width: 100%;
-	height: auto;
-}
-.card_hack:hover img{
-	filter: brightness(30%);
-	transition: 0.5s all;
-}
-.conhack .card_hack h4{
-	font-size: 17px;
-	margin-top: 0px;
-	color: white;
-	text-align: center;
-}
-.conhack .card_hack p{
-	font-size: 15px;
-	margin-top: 15px;
-	color: white;
-	line-height: 1.5;
-}
-
 /*My Work Style*/
 
 .cont_work{
@@ -586,14 +528,18 @@ input{
 	.content{
 		flex-direction: column;
 	}
+}
 @media screen and (max-width: 768px){
+
+	.home{
+		padding: 9rem 0%;
+		margin: 40rem;
+	}
+	
 	.content{
 		flex-direction: column;
 	}
 	.con{
-		flex-direction: column;
-	}
-	.conhack{
 		flex-direction: column;
 	}
 	.conw{
@@ -628,6 +574,8 @@ input{
 		font-size: 16px;
 	}
 
+
+
 	/* Media Navbar*/
 
 	.navbar{
@@ -636,10 +584,10 @@ input{
 	.menu-items{
 		flex-direction: column;
 		position: absolute;
-		top: 70px;
+		top: 40px;
 		left:0;
 		width: 100%;
-		background-color: #1a1a02;
+		background-color: #000000b9;
 		padding: 20px 35px;
 		display: none;
 	}
