@@ -532,8 +532,7 @@ input{
 @media screen and (max-width: 768px){
 
 	.home{
-		padding: 9rem 0%;
-		margin: 40rem;
+		padding: 40rem 0%;
 	}
 	
 	.content{
