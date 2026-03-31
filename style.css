@@ -107,8 +107,8 @@ z-index:-3;
 	font-weight: 600;
 }
 .nvbar a img{
-    width: 70px;
-    height: 40px;
+    width: 80px;
+    height: 50px;
 }
 .nvbar{
 	position: fixed;
@@ -498,8 +498,8 @@ input{
 .conw .card_work .read-more{
 	display: inline-block;
 	padding: 10px 20px;
-	background-color: red;
-	color: #a7359e;
+	background-color: rgb(0, 140, 255);
+	color: #ffffff;
 	font-size: 19px;
 	text-decoration: none;
 	border-radius: 25px;
