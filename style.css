@@ -106,6 +106,10 @@ z-index:-3;
 	text-transform: capitalize;
 	font-weight: 600;
 }
+.nvbar a img{
+    width: 70px;
+    height: 60px;
+}
 .nvbar{
 	position: fixed;
 	top: 0;
