@@ -441,7 +441,7 @@ input{
 	color: white;
 	margin-bottom: 25px;
 	position: relative;
-	margin: 2rem;
+	margin: 1rem;
 }
 .section_work .title_work p{
 	color: white;
@@ -457,7 +457,6 @@ input{
 .conw .card_work{
 	flex: 1;
 	margin: 40px 20px;
-	overflow: hidden;
 }
 .card_work li{
 	list-style: none;
@@ -507,7 +506,7 @@ input{
 	transition: 0.3s ease;
 }
 .conw .card_work .read-more:hover{
-	background-color: white;
+	background-color: rgb(216, 39, 39);
 	transform: scale(1.2);
 }
 .card span{
@@ -526,13 +525,9 @@ input{
 	color: white;
 }
 
-/* Media Phone */
 
-@media screen and (max-width: 600px){
-	.content{
-		flex-direction: column;
-	}
-}
+	
+
 @media screen and (max-width: 768px){
 
 	.home{
